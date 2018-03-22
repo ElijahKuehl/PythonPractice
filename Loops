@@ -1,0 +1,53 @@
+# Activity 1
+condition = True
+while condition:
+  print "Hey we looped!"
+  condition = False
+
+# Activity 1.5
+x = 0
+while x < 4:
+  print "Loop: %d" % (x)
+  x += 1
+
+# Activity 2
+count = 0
+while True:
+  print "We're looping! Count: %d" % (count)
+  count += 1
+  if count == 10:
+    break
+
+# Activity 3
+import random
+
+print "Lucky Numbers! 3 numbers will be generated."
+print "If one of them is a '5', you lose!"
+
+count = 0
+while count < 10:
+  num = random.randint(1, 6)
+  print num
+  if num == 5:
+    print "Sorry, you lose!"
+    break
+  count += 1
+else:
+  print "You win the lottery!"
+
+# Activity 4
+my_string = "Elijah"
+for i in my_string.lower():
+  if i == "a" or i == "e" or i == "i" or i == "o" or i == "u":
+    print "X"
+  else:
+    print i
+
+# Activity 5
+fruits_dictionary = {'b': 'berry','a': 'apple', 'c': 'cherry'}
+for key in fruits_dictionary:
+  if fruits_dictionary[key] == "apple":
+    print "We have an apple!"
+    break
+  else:
+    print "Not an apple"
