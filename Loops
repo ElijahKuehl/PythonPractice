@@ -4,12 +4,14 @@ while condition:
   print "Hey we looped!"
   condition = False
 
+print
 # Activity 1.5
 x = 0
 while x < 4:
   print "Loop: %d" % (x)
   x += 1
 
+print
 # Activity 2
 count = 0
 while True:
@@ -17,7 +19,8 @@ while True:
   count += 1
   if count == 10:
     break
-
+    
+print
 # Activity 3
 import random
 
@@ -35,6 +38,7 @@ while count < 10:
 else:
   print "You win the lottery!"
 
+print
 # Activity 4
 my_string = "Elijah"
 for i in my_string.lower():
@@ -43,6 +47,7 @@ for i in my_string.lower():
   else:
     print i
 
+print
 # Activity 5
 fruits_dictionary = {'b': 'berry','a': 'apple', 'c': 'cherry'}
 for key in fruits_dictionary:
